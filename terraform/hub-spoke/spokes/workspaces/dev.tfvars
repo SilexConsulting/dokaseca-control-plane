@@ -5,7 +5,6 @@ cloud_provider       = "local"
 kubernetes_version   = "1.33.1"
 enable_gitops_bridge = true
 gitops_org="git@github.com:SilexConsulting"
-gitops_workloads_repo="ivylen-workloads"
 # Teams
 teams = {
   team-a = "true"
@@ -131,7 +130,7 @@ gitops_addons_extras_repo     = "helm-charts"
 gitops_addons_extras_basepath = "stable"
 gitops_addons_extras_revision = "main"
 # Workloads
-gitops_workloads_repo     = "dokaseca-workloads"
+gitops_workloads_repo     = "ivylen-workloads"
 gitops_workloads_basepath = "argocd"
 gitops_workloads_path     = "workloads"
 gitops_workloads_revision = "main"
