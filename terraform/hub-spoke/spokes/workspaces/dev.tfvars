@@ -4,7 +4,8 @@ domain_name          = "k8s-home.lab"
 cloud_provider       = "local"
 kubernetes_version   = "1.33.1"
 enable_gitops_bridge = true
-gitops_org           = "https://github.com/thatmlopsguy"
+gitops_org="git@github.com:SilexConsulting"
+gitops_workloads_repo="ivylen-workloads"
 # Teams
 teams = {
   team-a = "true"
