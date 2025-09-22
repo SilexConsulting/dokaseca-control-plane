@@ -45,7 +45,7 @@ locals {
     enable_komoplane            = try(var.addons.enable_komoplane, false)
     enable_altinity_dashboard   = try(var.addons.enable_altinity_dashboard, false)
     enable_dapr_dashboard       = try(var.addons.enable_dapr_dashboard, false)
-    enable_velero_ui            = try(var.addons.enable_velero_ui, false)
+    enable_velero.              = try(var.addons.enable_velero, false)
     enable_ocm_dashboard        = try(var.addons.enable_ocm_dashboard, false) # TODO
     # fleet manager
     enable_gardener        = try(var.addons.enable_gardener, false)        # TODO
